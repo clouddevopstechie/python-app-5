@@ -1,0 +1,10 @@
+site_name: 'python-app-5'
+site_description: 'Main documentation site for the python-app-5 project.'
+repo_url: https://github.com/vivekbangare/python-app-5
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+nav:
+  - Overview: 
+      - Getting started: 'docs/index.md'

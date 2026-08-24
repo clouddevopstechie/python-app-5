@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app-5
+  description: Python flask application displaying system information and health check endpoint - named as python-app-5 and environment dev.
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: vivekbangare/python-app-5
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development-team
+  lifecycle: experimental
