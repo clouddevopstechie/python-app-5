@@ -1,13 +1,10 @@
 replicaCount: 1
-
 image:
   repository: vivekbangare01/python-app-5
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "python-app-5-dev-latest"
-
+  tag: "71ed49"
 resources:
   requests:
     cpu: 50m
     memory: 50Mi
-
